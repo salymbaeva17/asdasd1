@@ -1,3 +1,10 @@
+let a6 = "12345"
+if ( a6[0] === "1" || a6[0] === "2" || a6[0] === "3" ){
+    console.log("Da")
+} else {
+    console.log("Net")
+}
+
 
 let day = 32
 if( day >= 1 && day <= 10 ){
