@@ -1,3 +1,13 @@
+let a3 = 6
+if (a3 === 3 || a3 === 7){
+    a3 = a3 + 7
+    console.log(a3)
+} else{
+    a3 = a3 / 10
+    console.log(a3)
+}
+
+
 let a2 = 6
 if ( a2 > 1 && a2 < 9){
     console.log("Верно")
