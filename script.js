@@ -1,3 +1,13 @@
+
+let a5 = 7
+let b3 = 5
+if ( a5 > 4 && b3 < 10 || b3 >= 7 && b3 < 17 ){
+    console.log("Верно")
+} else{
+    console.log("Неверно")
+}
+
+
 let a4 = 0
 let b2 = 5
 if ( a4 <= 0 && b2 >=5){
