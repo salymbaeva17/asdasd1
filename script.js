@@ -1,4 +1,13 @@
-
+const s = s => {
+    if (typeof s === "string") {
+        return "String"
+    } else if (typeof s === "boolean") {
+        return "Boolean"
+    } else if (typeof s === "number") {
+        return "Number"
+    }
+}
+console.log(s(65))
 
 
 let a = 10
