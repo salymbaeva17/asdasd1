@@ -1,3 +1,14 @@
+let a4 = 0
+let b2 = 5
+if ( a4 <= 0 && b2 >=5){
+    let result = a4 + b2
+    console.log(result)
+} else {
+    let result = a4 - b2
+    console.log(result)
+}
+
+
 let a3 = 6
 if (a3 === 3 || a3 === 7){
     a3 = a3 + 7
