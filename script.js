@@ -1,3 +1,11 @@
+let a2 = 6
+if ( a2 > 1 && a2 < 9){
+    console.log("Верно")
+} else {
+    console.log("Неверно")
+}
+
+
 const s = s => {
     if (typeof s === "string") {
         return "String"
