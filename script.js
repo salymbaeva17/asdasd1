@@ -1,3 +1,16 @@
+
+let day = 32
+if( day >= 1 && day <= 10 ){
+    console.log("First decade!")
+} else if ( day >= 11 && day <= 20 ){
+    console.log("Second decade!")
+} else if ( day >=21 && day <= 31){
+    console.log("Third decade!")
+} else {
+    console.log("There is no such decade in a month!")
+}
+
+
 let month = 4
 if ( month >= 3 && month <= 5 ){
     console.log("Spring!")
