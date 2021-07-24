@@ -1,3 +1,7 @@
+a10 = 3**10
+console.log( a10 )
+
+
 let a9 = 77
 console.log(Math.sqrt(a9))
 
