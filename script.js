@@ -1,3 +1,12 @@
+let a8 = 19
+let b4 = 2
+if ( a8 % b4 === 0){
+    console.log(`Делится ${a8/b4}`)
+} else {
+    console.log(`Делится с остатком ${a8%b4}`)
+}
+
+
 let a7 = 60
 if ( a7 >= 40 && a7 <= 60){
     console.log("верно")
