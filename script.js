@@ -1,3 +1,12 @@
+let numStr ="33"
+let result4 = Number(numStr)
+let result5 = parseInt(numStr)
+let result6 = +numStr
+console.log(typeof result4)
+console.log(typeof result5)
+console.log(typeof result6)
+
+
 let  strNum = 11
 let result = strNum.toString()
 let result2 = String(strNum)
