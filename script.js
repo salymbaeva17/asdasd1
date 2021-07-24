@@ -1,3 +1,7 @@
+let a9 = 77
+console.log(Math.sqrt(a9))
+
+
 let a8 = 19
 let b4 = 2
 if ( a8 % b4 === 0){
