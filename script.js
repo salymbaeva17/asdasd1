@@ -1,3 +1,11 @@
+let num = 52
+if( num === 110 ){
+    console.log("Верно")
+} else{
+    console.log("Неверно")
+}
+
+
 let time = 16
 if ( time >=0 && time <=15){
     console.log("Первая четверть")
