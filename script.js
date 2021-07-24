@@ -1,3 +1,12 @@
+let  strNum = 11
+let result = strNum.toString()
+let result2 = String(strNum)
+let result3 = strNum + " "
+console.log(typeof result)
+console.log(typeof result2)
+console.log(typeof result3)
+
+
 a10 = 3**10
 console.log( a10 )
 
