@@ -1,3 +1,15 @@
+let age = 95
+if ( age >= 10 && age <=20 ){
+    console.log(`Мне ${age} лет`)
+} else if ( age % 10 === 1 || age === 1){
+    console.log(`Мне ${age} год`)
+} else if( age % 10 >= 2 && age % 10 <= 4 || age >= 2 && age <= 4 ){
+    console.log(`Мне ${age} года`)
+} else {
+    console.log(`Мне ${age} лет`)
+}
+
+
 let a6 = "12345"
 if ( a6[0] === "1" || a6[0] === "2" || a6[0] === "3" ){
     console.log("Da")
