@@ -1,3 +1,9 @@
+let num2 = 4.98271
+console.log(Math.ceil(num2))
+console.log(Math.floor(num2))
+console.log(Math.round(num2))
+
+
 let numStr ="33"
 let result4 = Number(numStr)
 let result5 = parseInt(numStr)
