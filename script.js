@@ -1,3 +1,11 @@
+let age2 = 45
+if ( age2 < 18){
+    console.log(`вы должны быть старше 18`)
+} else if ( age2 > 18 ){
+    console.log("добро пожаловать!")
+}
+
+
 let num2 = 4.98271
 console.log(Math.ceil(num2))
 console.log(Math.floor(num2))
