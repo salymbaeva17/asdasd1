@@ -1,3 +1,11 @@
+let a7 = 60
+if ( a7 >= 40 && a7 <= 60){
+    console.log("верно")
+} else {
+    console.log("Неверно")
+}
+
+
 let num = 52
 if( num === 110 ){
     console.log("Верно")
