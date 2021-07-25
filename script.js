@@ -1,3 +1,13 @@
+let a10 = 2
+let b5 = 1
+let c = 1
+if ( a10 === b5 && b5 === c ){
+    console.log("все равны")
+} else if ( a10 !== b5 || b5 !== c || c !== a10 ){
+    console.log("не равны")
+}
+
+
 let light = "green"
 if ( light === "green" ){
     console.log("можете ехать")
