@@ -1,3 +1,12 @@
+let today = 3
+let birthday = 1
+if ( today === birthday){
+    console.log("Happy Birthday!")
+} else {
+    console.log("Not today")
+}
+
+
 console.log( Math.random() * 200 ) // or
 console.log( Math.round(Math.random() * 200 ))
 
