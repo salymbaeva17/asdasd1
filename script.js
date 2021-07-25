@@ -1,3 +1,11 @@
+let num3 = "123456"
+if ( +num3[0] + +num3[1] + +num3[2] === +num3[3] + +num3[4] + +num3[5]){
+    console.log("да")
+} else {
+    console.log("нет")
+}
+
+
 let numStr2 = "123"
 let result7 = +numStr2[0] + +numStr2[1] + +numStr2[2]
 console.log(result7)
