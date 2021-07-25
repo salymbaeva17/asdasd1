@@ -1,3 +1,7 @@
+console.log( Math.random() * 200 ) // or
+console.log( Math.round(Math.random() * 200 ))
+
+
 let age2 = 45
 if ( age2 < 18){
     console.log(`вы должны быть старше 18`)
