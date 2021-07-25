@@ -1,3 +1,15 @@
+let light = "green"
+if ( light === "green" ){
+    console.log("можете ехать")
+} else if ( light === "yellow"){
+    console.log("немного подождите")
+} else if( light === "red"){
+    console.log("остановитесь!")
+} else {
+    console.log("неизвестно")
+}
+
+
 let today = 3
 let birthday = 1
 if ( today === birthday){
