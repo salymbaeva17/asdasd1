@@ -1,3 +1,13 @@
+let birthday2 = 3
+if ( birthday2 === 3){
+    console.log("Happy birthday!")
+} else if ( birthday2 < 3 ){
+    console.log("ещё рано")
+} else if ( birthday2 > 3 ){
+    console.log("уже поздно")
+}
+
+
 let a10 = 2
 let b5 = 1
 let c = 1
