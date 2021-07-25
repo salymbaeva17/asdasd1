@@ -1,3 +1,8 @@
+let  str3 = "Максимально УЖАСНО"
+let array2 = str3.split(" ")
+console.log(array2[1].toLowerCase())
+
+
 let str2 = "Nevis ITDB TECH"
 let array = str2.split(" ")
 console.log(array[0].length)
