@@ -1,3 +1,8 @@
+let numStr2 = "123"
+let result7 = +numStr2[0] + +numStr2[1] + +numStr2[2]
+console.log(result7)
+
+
 let birthday2 = 3
 if ( birthday2 === 3){
     console.log("Happy birthday!")
