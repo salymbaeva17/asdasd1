@@ -1,3 +1,11 @@
+let str = "apple"
+if ( str[0] === "a"){
+    console.log("Da")
+} else {
+    console.log("Net")
+}
+
+
 let num3 = "123456"
 if ( +num3[0] + +num3[1] + +num3[2] === +num3[3] + +num3[4] + +num3[5]){
     console.log("да")
