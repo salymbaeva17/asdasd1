@@ -1,3 +1,8 @@
+let str2 = "Nevis ITDB TECH"
+let array = str2.split(" ")
+console.log(array[0].length)
+
+
 let str = "apple"
 if ( str[0] === "a"){
     console.log("Da")
