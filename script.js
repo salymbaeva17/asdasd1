@@ -1,3 +1,7 @@
+let str13 = "Максимально Ужасно"
+console.log(str13.lastIndexOf("а"))
+
+
 let  str12 = "Максимально Ужасно"
 if ( str12.includes("а") >= 1){
     console.log("встречается более 1 раза")
