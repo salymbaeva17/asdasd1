@@ -1,3 +1,12 @@
+let str15 = "aaa bbb ccc"
+let b6 = str15.substr(4, 4)
+console.log(b6)
+let b7 = str15.substring(4, 7)
+console.log(b7)
+let b8 = str15.slice(4, 7)
+console.log(b8)
+
+
 let str14 = "Максимально Ужасно"
 console.log(str14.indexOf("о"))
 
