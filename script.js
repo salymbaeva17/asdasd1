@@ -1,3 +1,11 @@
+let  str12 = "Максимально Ужасно"
+if ( str12.includes("а") >= 1){
+    console.log("встречается более 1 раза")
+}  else{
+    console.log("встречается менее одного раза")
+}
+
+
 let str11 = "Максимально Ужасно"
 console.log(str11.indexOf("Ужасно"))
 
