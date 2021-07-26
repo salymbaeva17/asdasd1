@@ -1,3 +1,9 @@
+let str9 = "Максимально"
+let str10 = "Ужасно"
+let array8 = str9.concat(" ", str10)
+console.log(array8)
+
+
 let str8 = "Максимально Ужасно"
 let array7 = str8.charAt(12)
 console.log(array7)
