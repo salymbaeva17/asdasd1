@@ -1,3 +1,11 @@
+let str17 = "Максимально Ужасно"
+if (str17.includes("в")){
+    console.log("Да")
+} else {
+    console.log("Нет")
+}
+
+
 let str16 = "17-02-2021"
 let array9 = str16.replace("17-02-2021", "31/12/2025")
 console.log(array9)
