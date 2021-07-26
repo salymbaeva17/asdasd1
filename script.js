@@ -1,3 +1,8 @@
+let str16 = "17-02-2021"
+let array9 = str16.replace("17-02-2021", "31/12/2025")
+console.log(array9)
+
+
 let str15 = "aaa bbb ccc"
 let b6 = str15.substr(4, 4)
 console.log(b6)
