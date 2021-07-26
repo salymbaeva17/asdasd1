@@ -1,3 +1,8 @@
+let str5 = 'Максимально Ужасно'
+let array4 = str5.split("")
+console.log(array4)
+
+
 let str4 = "максимально УЖАСНО"
 let array3 = str4.split(" ")
 console.log(array3[0].toUpperCase())
