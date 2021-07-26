@@ -1,3 +1,7 @@
+let str14 = "Максимально Ужасно"
+console.log(str14.indexOf("о"))
+
+
 let str13 = "Максимально Ужасно"
 console.log(str13.lastIndexOf("а"))
 
