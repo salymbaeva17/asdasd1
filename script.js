@@ -1,3 +1,7 @@
+let str11 = "Максимально Ужасно"
+console.log(str11.indexOf("Ужасно"))
+
+
 let str9 = "Максимально"
 let str10 = "Ужасно"
 let array8 = str9.concat(" ", str10)
