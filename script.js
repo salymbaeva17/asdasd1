@@ -1,3 +1,8 @@
+let str8 = "Максимально Ужасно"
+let array7 = str8.charAt(12)
+console.log(array7)
+
+
 let str7 = "Максимально Ужасно"
 let array6 = str7.slice(5, 18)
 console.log(array6)
