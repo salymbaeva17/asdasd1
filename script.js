@@ -1,3 +1,8 @@
+let str7 = "Максимально Ужасно"
+let array6 = str7.slice(5, 18)
+console.log(array6)
+
+
 let str6 = "Максимально Ужасно, переделывай"
 let array5 = str6.split(" ")
 console.log(array5)
