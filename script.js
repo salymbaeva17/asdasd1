@@ -1,3 +1,10 @@
+function multiplicity1(num){
+    return num % 5 === 0
+}
+console.log(multiplicity1(100))
+console.log(multiplicity1(19))
+
+
 function multiplicity(num) {
     return num % 5 === 0;
 }
