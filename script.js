@@ -1,3 +1,17 @@
+function comparisonNum(a, b){
+    if( a > b){
+        return `${a} больше ${b}`
+    } else if ( a < b ){
+        return `${b} больше ${a}`
+    }
+    return "Они равны"
+}
+
+console.log(comparisonNum(3, 1))
+console.log(comparisonNum(45, 65))
+console.log(comparisonNum(0, 0))
+
+
 function type(value){
     return typeof value
 }
