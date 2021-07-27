@@ -1,3 +1,11 @@
+function product(a, b){
+    return a * b
+}
+console.log(product(3, 7))
+console.log(product(8, 6))
+console.log(product(9, 3))
+
+
 let str20 = "Максимально"
 let half = str20.length / 2
 if (str20.indexOf("л") > half){
