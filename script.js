@@ -1,3 +1,12 @@
+let str20 = "Максимально"
+let half = str20.length / 2
+if (str20.indexOf("л") > half){
+    console.log("Вторая половина")
+} else {
+    console.log("Первая половина")
+}
+
+
 let str19 = "АаааааА"
 if (str19[0] === str19[6]) {
     console.log("Совпадает")
