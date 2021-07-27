@@ -1,3 +1,11 @@
+let str18 = "AаааааА"
+if ( str18[0].indexOf("A") === str18.lastIndexOf("A")){
+    console.log("Совпадает")
+} else {
+    console.log("Не совпадает")
+}
+
+
 let str17 = "Максимально Ужасно"
 if (str17.includes("в")){
     console.log("Да")
