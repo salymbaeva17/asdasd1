@@ -1,3 +1,11 @@
+function greeting(name){
+    return `Hello my dear ${name}`
+}
+console.log(greeting("Ivan"))
+console.log(greeting("Aitolkun")) // фактическое значение которое передается в функцию называется  ее аргументом
+console.log(greeting("Maria")) // имя по которому вы получаете фактич значение --- параметр
+
+
 function product(a, b){
     return a * b
 }
