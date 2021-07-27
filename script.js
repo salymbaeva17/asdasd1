@@ -1,7 +1,15 @@
-function comparisonNum(a, b){
-    if( a > b){
+function multiplicity(num) {
+    return num % 5 === 0;
+}
+console.log(multiplicity(55))
+console.log(multiplicity(25))
+console.log(multiplicity(9))
+
+
+function comparisonNum(a, b) {
+    if (a > b) {
         return `${a} больше ${b}`
-    } else if ( a < b ){
+    } else if (a < b) {
         return `${b} больше ${a}`
     }
     return "Они равны"
@@ -12,25 +20,28 @@ console.log(comparisonNum(45, 65))
 console.log(comparisonNum(0, 0))
 
 
-function type(value){
+function type(value) {
     return typeof value
 }
+
 console.log(type("Trump"))
 console.log(type(13))
 console.log(type(false))
 
 
-function greeting(name){
+function greeting(name) {
     return `Hello my dear ${name}`
 }
+
 console.log(greeting("Ivan"))
 console.log(greeting("Aitolkun")) // фактическое значение которое передается в функцию называется  ее аргументом
 console.log(greeting("Maria")) // имя по которому вы получаете фактич значение --- параметр
 
 
-function product(a, b){
+function product(a, b) {
     return a * b
 }
+
 console.log(product(3, 7))
 console.log(product(8, 6))
 console.log(product(9, 3))
@@ -38,7 +49,7 @@ console.log(product(9, 3))
 
 let str20 = "Максимально"
 let half = str20.length / 2
-if (str20.indexOf("л") > half){
+if (str20.indexOf("л") > half) {
     console.log("Вторая половина")
 } else {
     console.log("Первая половина")
@@ -54,7 +65,7 @@ if (str19[0] === str19[6]) {
 
 
 let str18 = "AаааааА"
-if ( str18[0].indexOf("A") === str18.lastIndexOf("A")){
+if (str18[0].indexOf("A") === str18.lastIndexOf("A")) {
     console.log("Совпадает")
 } else {
     console.log("Не совпадает")
@@ -62,7 +73,7 @@ if ( str18[0].indexOf("A") === str18.lastIndexOf("A")){
 
 
 let str17 = "Максимально Ужасно"
-if (str17.includes("в")){
+if (str17.includes("в")) {
     console.log("Да")
 } else {
     console.log("Нет")
@@ -91,10 +102,10 @@ let str13 = "Максимально Ужасно"
 console.log(str13.lastIndexOf("а"))
 
 
-let  str12 = "Максимально Ужасно"
-if ( str12.includes("а") >= 1){
+let str12 = "Максимально Ужасно"
+if (str12.includes("а") >= 1) {
     console.log("встречается более 1 раза")
-}  else{
+} else {
     console.log("встречается менее одного раза")
 }
 
