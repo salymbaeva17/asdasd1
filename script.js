@@ -1,3 +1,11 @@
+function type(value){
+    return typeof value
+}
+console.log(type("Trump"))
+console.log(type(13))
+console.log(type(false))
+
+
 function greeting(name){
     return `Hello my dear ${name}`
 }
