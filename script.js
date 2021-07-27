@@ -1,3 +1,10 @@
+function string(str){
+    return str.length
+}
+console.log(string("Hello everyone"))
+console.log(string("Hi, how r u?"))
+
+
 function multiplicity1(num){
     return num % 5 === 0
 }
