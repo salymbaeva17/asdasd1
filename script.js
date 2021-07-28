@@ -1,3 +1,22 @@
+function finalValue(exam, projects){
+    if( exam > 90 || projects > 10 ){
+        return "100"
+    } else if ( exam > 75 && projects >= 5 ){
+        return "90"
+    } else if( exam > 50 && projects >= 2 ){
+        return "75"
+    }
+    return "0"
+}
+console.log(finalValue(100, 11))
+console.log(finalValue(95, 11 ))
+console.log(finalValue(55, 3))
+console.log(finalValue(55, 0))
+console.log(finalValue(20, 2))
+console.log(finalValue(99, 0))
+console.log(finalValue(10, 15))
+
+
 function num1(a, b, c, d){
     return Math.min(a, b, c, d)
 }
