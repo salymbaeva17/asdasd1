@@ -1,3 +1,11 @@
+function randomNum2(n){
+    return Math.floor(Math.random()  * n ** 2 - n )
+}
+console.log(randomNum2(18))
+console.log(randomNum2(9))
+console.log(randomNum2(90))
+
+
 function randomNum(n){
     return Math.round(Math.random()  * n - `${n / 2}` )
 }
