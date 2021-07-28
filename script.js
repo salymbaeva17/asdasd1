@@ -1,3 +1,10 @@
+function index(str){
+    return str.charAt(str.length - 1)
+}
+console.log(index("Hello everyone"))
+console.log(index("Hi, how r u?"))
+
+
 function string(str){
     return str.length
 }
