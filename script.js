@@ -1,3 +1,11 @@
+function root(num){
+    return num * num
+}
+console.log(root(6))
+console.log(root(13))
+console.log(root(20))
+
+
 function index(str){
     return str.charAt(str.length - 1)
 }
