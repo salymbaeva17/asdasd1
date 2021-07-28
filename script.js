@@ -1,3 +1,11 @@
+function num(n){
+    return String(n).length
+}
+console.log(num(18))
+console.log(num(7))
+console.log(num(129))
+
+
 function randomNum2(n){
     return Math.floor(Math.random()  * n ** 2 - n )
 }
