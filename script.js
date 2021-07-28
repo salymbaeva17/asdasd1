@@ -1,3 +1,10 @@
+function num1(a, b, c, d){
+    return Math.min(a, b, c, d)
+}
+console.log(num1(1, -9, 0,62))
+console.log(num1(67, 24, 55, 100))
+
+
 function num(n){
     return String(n).length
 }
