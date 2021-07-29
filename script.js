@@ -1,3 +1,11 @@
+function task24(str) {
+    let array = str.split(' ')[1]
+    return str.indexOf(array)
+}
+
+console.log(task24("lorem ipsum dolor"))
+
+
 function task25(str) {
     if (str.includes("a") >= 1) {
         return "встречается более 1 раза"
