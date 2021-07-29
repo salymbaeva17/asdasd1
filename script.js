@@ -1,3 +1,9 @@
+function task32(today, birthday) {
+    return today === birthday ? "Happy Birthday!" : "Not Today!"
+}
+console.log(task32(7, 1))
+
+
 function task33(age) {
     return age < 18 ? "вы должны быть старше 18" : age > 18 ? "добро пожаловать!" : "не разрешено!"
 }
