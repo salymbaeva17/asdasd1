@@ -1,3 +1,10 @@
+function task30(str) {
+    return str.includes("л") ? "Да" : "Нет"
+}
+console.log(task30("Максимально ужасно"))
+console.log(task30("Как ты поживаешь?"))
+
+
 function task31(str) {
     return str[0] === str[str.length - 1] ? "Совпадает" : "Не совпадает"
 }
