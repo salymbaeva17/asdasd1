@@ -1,3 +1,13 @@
+function task35(str) {
+    return +(str[0]) + +(str[1]) + +(str[2])
+
+}
+
+console.log(task35('617'))
+console.log(task35('456'))
+console.log(task35('123'))
+
+
 function finalValue(exam, projects){
     if( exam > 90 || projects > 10 ){
         return "100"
