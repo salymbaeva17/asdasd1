@@ -1,3 +1,13 @@
+function task27(str) {
+    return str.indexOf("о")
+}
+console.log(task27("Потап"))
+console.log(task27("Аврора"))
+console.log(task27("Иоганн"))
+console.log(task27("озеро"))
+console.log(task27("Егор"))
+
+
 function task28(str) {
     let substr1 = str.substr(2, 5)
     return substr1
