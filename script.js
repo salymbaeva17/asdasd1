@@ -1,3 +1,26 @@
+function task28(str) {
+    let substr1 = str.substr(2, 5)
+    return substr1
+}
+function task28_1(str) {
+    let substring1 = str.substring(2, 7)
+    return substring1
+}
+function task28_2(str) {
+    let slice1 = str.slice(2, 7)
+    return slice1
+}
+console.log(task28("seveniybgg divide seven"))
+console.log(task28_1("seveniybgg divide seven"))
+console.log(task28_2("seveniybgg divide seven"))
+console.log(task28("Hellhbkjno, how are you?"))
+console.log(task28_1("Hellhbkjno, how are you?"))
+console.log(task28_2("Hellhbkjno, how are you?"))
+console.log(task28("sevenhbkug plus eight"))
+console.log(task28_1("sevenhbkug plus eight"))
+console.log(task28_2("sevenhbkug plus eight"))
+
+
 function task29(str) {
     return str.replace(/-/g, "/")
 }
