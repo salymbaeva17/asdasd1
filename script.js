@@ -1,3 +1,9 @@
+function task29(str) {
+    return str.replace(/-/g, "/")
+}
+console.log(task29("17-02-2021"))
+
+
 function task30(str) {
     return str.includes("л") ? "Да" : "Нет"
 }
