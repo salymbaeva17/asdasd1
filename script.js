@@ -1,3 +1,10 @@
+function task21(str) {
+    return str.slice(2, 6)
+}
+
+console.log(task21("loremjgjkh ipsum dolor sit amet"))
+
+
 function task22(str) {
     return str.charAt(str.length - 1)
 }
