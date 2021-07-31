@@ -1,3 +1,10 @@
+function string5(str) {
+    return str.split(" ")
+}
+
+console.log(string5("lorem ipsum dolor sit amet"))
+
+
 function task21(str) {
     return str.slice(2, 6)
 }
