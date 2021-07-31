@@ -1,3 +1,11 @@
+function string1(str) {
+    return str.split(" ")[0].length
+}
+
+console.log(string1("lorem ipsum dolor sit amet"))
+console.log(string1("bonjorno amigos"))
+
+
 function string2(str) {
     return str.split(" ")[1].toLowerCase()
 }
