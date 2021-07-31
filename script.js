@@ -1,36 +1,8 @@
-function task27_1(str) {
-    return str.indexOf("о")
+function concat(str, str2) {
+    return str.concat(str2)
 }
 
-console.log(task27_1("Потап"))
-console.log(task27_1("Аврора"))
-console.log(task27_1("Иоганн"))
-console.log(task27_1("озеро"))
-console.log(task27_1("Егор"))
-
-
-function task26_1(str) {
-    return str.lastIndexOf("a")
-}
-
-console.log(task26_1("Aurora"))
-console.log(task26_1("Elsa"))
-console.log(task26_1("Anastasia"))
-console.log(task26_1("Egor"))
-
-
-function task25_1(str) {
-    if (str.includes("a") >= 1) {
-        return "встречается более 1 раза"
-    }
-    return "встречается менее одного раза"
-}
-
-console.log(task25_1("Maleficent"))
-console.log(task25_1("Aurora"))
-console.log(task25_1("Elsa"))
-console.log(task25_1("Anastasia"))
-console.log(task25_1("Egor"))
+console.log(concat("строка", "строка"))
 
 
 function task24(str) {
