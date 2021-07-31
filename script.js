@@ -1,3 +1,10 @@
+function task22(str) {
+    return str.charAt(str.length - 1)
+}
+
+console.log(task22("lorem ipsum dolor sit amet"))
+
+
 function concat(str, str2) {
     return str.concat(str2)
 }
