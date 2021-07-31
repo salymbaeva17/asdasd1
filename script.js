@@ -1,3 +1,10 @@
+function string2(str) {
+    return str.split(" ")[1].toLowerCase()
+}
+
+console.log(string2("bonjorno AmIgOs"))
+
+
 function string3(str) {
     return str.split(" ")[0].toUpperCase()
 }
