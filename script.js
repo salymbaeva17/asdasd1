@@ -1,3 +1,16 @@
+function num7(a) {
+    if (a.toString()[0] === "1" || a.toString()[0] === "2" || a.toString()[0] === "3") {
+        return "DA"
+    }
+    return "NET"
+}
+
+console.log(num7(1))
+console.log(num7(2))
+console.log(num7(3))
+console.log(num7(8))
+
+
 function num8(age) {
     if (age === 1 || age % 10 === 1) {
         return `Мне ${age} год`
