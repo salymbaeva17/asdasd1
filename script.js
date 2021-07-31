@@ -1,3 +1,14 @@
+function task27_1(str) {
+    return str.indexOf("о")
+}
+
+console.log(task27_1("Потап"))
+console.log(task27_1("Аврора"))
+console.log(task27_1("Иоганн"))
+console.log(task27_1("озеро"))
+console.log(task27_1("Егор"))
+
+
 function task26_1(str) {
     return str.lastIndexOf("a")
 }
