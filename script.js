@@ -1,3 +1,13 @@
+function task26_1(str) {
+    return str.lastIndexOf("a")
+}
+
+console.log(task26_1("Aurora"))
+console.log(task26_1("Elsa"))
+console.log(task26_1("Anastasia"))
+console.log(task26_1("Egor"))
+
+
 function task25_1(str) {
     if (str.includes("a") >= 1) {
         return "встречается более 1 раза"
